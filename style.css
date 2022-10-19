@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.manu{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(
+        rgba(38, 41, 47, 0.682),
+        rgba(95, 83, 76, 0.309)
+    ),url("istockphoto-1254672762-170667a.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+nav h2, ul, a{
+    margin-top: 5px;
+    padding-left: 20px;
+
+}
+
+.btn{
+    margin: 20px;
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    letter-spacing: .01em;
+    font-family: 'Silkscreen', cursive;  
+    cursor: pointer; 
+}
+
+span{
+    color: yellow;
+    font-family: 'Silkscreen', cursive;   
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 30px;
+    
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+    color: yellow;
+    transition: all 1s;
+}
+
+.btn{
+    color: rgb(252, 251, 251);
+    background-color: #d6e104;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-size: larger;
+    font-weight: bolder;
+    
+}
+
+.btn:hover{
+    background-color: transparent;
+    color: #ecf804;
+    border: 2px solid #ecf804;
+    transition: all 0.5s;
+    transform: scale(1.1);
+    
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: white;
+    font-size: 45px;
+    font-family: 'Silkscreen', cursive;  
+    margin: 25px 10px; 
+    letter-spacing: 5px;
+}
+
+p{
+    color: white;
+    margin-bottom: 15px;
+    line-height: 30px;
+    font-size: 30px;
+    font-weight: bolder;
+
+}
+
+.btn2 button{
+    color: white;
+    background-color: #cad408;
+    border: 2px solid #d6e104;
+    padding: 10px 40px;
+    border-radius: 40px;
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all .2s linear;
+    letter-spacing: 1px;
+}
+
+.btn2 button:hover{
+    transform: scale(1.2);
+    background-color: transparent;
+    
+}
